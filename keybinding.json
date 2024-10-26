@@ -1,3 +1,4 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "ctrl+b",
@@ -151,14 +152,13 @@
   {
     "key": "ctrl+n",
     "command": "explorer.newFile"
-    // "when": "explorerViewletFocus"
   },
   {
     "key": "ctrl+shift+n",
     "command": "explorer.newFolder"
   },
   {
-    "key": "ctrl+k",
+    "key": "ctrl+o",
     "command": "workbench.action.files.openFolder",
     "when": "openFolderWorkspaceSupport"
   },
@@ -171,5 +171,20 @@
     "key": "ctrl+shift+k",
     "command": "editor.action.defineKeybinding",
     "when": "resource == 'vscode-userdata:/c%3A/Users/A/AppData/Roaming/Code/User/keybindings.json'"
+  },
+
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.files.openFile",
+    "when": "true"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFile",
+    "when": "true"
   }
 ]
