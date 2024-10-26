@@ -19,9 +19,9 @@
 }
 
 /* File explorer action buttons */
-.monaco-workbench .part.sidebar .title-actions .actions-container {
+/* .monaco-workbench .part.sidebar .title-actions .actions-container {
   display: none;
-}
+} */
 
 /* Scroll Bar */
 .slider {

@@ -1,0 +1,104 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true, // File layout margin from parent folder
+  "editor.mouseWheelZoom": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.compactFolders": false, // Folder structure is nested hierarchy
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveDelay": 100,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": true,
+  "html.format.enable": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "extensionName": ".css",
+      "format": "compressed"
+      // "savePath": "/css",
+      // "savePathReplacementPairs": null
+    }
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.requireConfig": false,
+  "prettier.semi": false,
+  "scss.validate": false,
+  "settingsSync.ignoredExtensions": ["zhang-renyang.chat-gpt"],
+  "stylelint.enable": true, // Enable Stylelint
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "html": "html",
+    "javascript": "javascript"
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontSize": 16,
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.location": "bottom",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#727272" // Folder line of tree color
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.tree.indent": 15,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.colorTheme": "GitHub Dark",
+  "console-ninja.featureSet": "Community",
+  "console-ninja.outputMode": "In View",
+  "workbench.sideBar.location": "right",
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/A/Documents/vscode-custom-style.css",
+    "file:///C:/Users/A/Documents/vscode-custom-script.js"
+  ],
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  "breadcrumbs.enabled": false, // disable path which folder is in
+  "scm.diffDecorations": "none",
+  "editor.minimap.enabled": false,
+  "editor.hover.delay": 1000,
+  "editor.hover.enabled": true,
+  "workbench.startupEditor": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "workbench.editor.enablePreviewFromQuickOpen": false
+}
