@@ -158,16 +158,6 @@
     "command": "explorer.newFolder"
   },
   {
-    "key": "ctrl+o",
-    "command": "workbench.action.files.openFolder",
-    "when": "openFolderWorkspaceSupport"
-  },
-  {
-    "key": "ctrl+k ctrl+o",
-    "command": "-workbench.action.files.openFolder",
-    "when": "openFolderWorkspaceSupport"
-  },
-  {
     "key": "ctrl+shift+k",
     "command": "editor.action.defineKeybinding",
     "when": "resource == 'vscode-userdata:/c%3A/Users/A/AppData/Roaming/Code/User/keybindings.json'"
