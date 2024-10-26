@@ -147,17 +147,12 @@
     "command": "-editor.action.insertLineBefore",
     "when": "editorTextFocus && !editorReadonly"
   },
-  // {
-  //   "key": "ctrl+n",
-  //   "command": "explorer.newFolder"
-  // },
-  // {
-  //   "key": "ctrl+n",
-  //   "command": "-workbench.action.files.newUntitledFile"
-  // },
   {
     "key": "ctrl+n",
     "command": "explorer.newFile"
-    // "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
   }
 ]
