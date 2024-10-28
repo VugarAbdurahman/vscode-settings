@@ -87,7 +87,7 @@
   "workbench.editor.enablePreview": false,
   "window.newWindowDimensions": "inherit",
   "diffEditor.renderSideBySide": false,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "inline",
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -100,5 +100,6 @@
   "workbench.startupEditor": "none",
   "editor.overviewRulerBorder": false,
   "editor.renderLineHighlight": "none",
-  "workbench.editor.enablePreviewFromQuickOpen": false
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "security.workspace.trust.untrustedFiles": "open"
 }
